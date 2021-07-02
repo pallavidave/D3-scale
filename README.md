@@ -7,7 +7,7 @@ this application include
 4. scale Band
 
 # Project Setup
-1.git clone project
-2.npm install
-3.ng serve
+1. git clone project
+2. npm install
+3. ng serve
 
