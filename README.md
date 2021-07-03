@@ -14,6 +14,7 @@ this application include
 # Scale Linear
  1. To craete linear scale you need **d3.scaleLinear()** 
  set the scale domain, here domain start with **0** to **100** but if you want negative scale then start domain with **negative value** to **positive value**
+ 
  ![image](https://user-images.githubusercontent.com/25982054/124363163-54542c00-dc57-11eb-989b-f6e952865e92.png)
  
  
@@ -23,9 +24,11 @@ this application include
  
  ## Output
  1. positive scale
-   ![image](https://user-images.githubusercontent.com/25982054/124363299-0986e400-dc58-11eb-8abb-f9b752d320ef.png)
+ 
+    ![image](https://user-images.githubusercontent.com/25982054/124363299-0986e400-dc58-11eb-8abb-f9b752d320ef.png)
  2. Negative scale
-   ![image](https://user-images.githubusercontent.com/25982054/124363411-b6f9f780-dc58-11eb-8a2b-38f2f6a35ac1.png)
+ 
+    ![image](https://user-images.githubusercontent.com/25982054/124363411-b6f9f780-dc58-11eb-8a2b-38f2f6a35ac1.png)
 
 
 
