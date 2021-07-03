@@ -11,3 +11,8 @@ this application include
 2. npm install
 3. ng serve
 
+# Scale Linear
+ To craete linear scale you need **d3.scaleLinear()** 
+ ![image](https://user-images.githubusercontent.com/25982054/124363163-54542c00-dc57-11eb-989b-f6e952865e92.png)
+
+ 
