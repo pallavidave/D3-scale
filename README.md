@@ -29,8 +29,17 @@ this application include
  2. Negative scale
  
     ![image](https://user-images.githubusercontent.com/25982054/124363411-b6f9f780-dc58-11eb-8a2b-38f2f6a35ac1.png)
-
-
-
+   
+# Scale Time
+1. To craete time scale you need **d3.scaleTime()** 
+ set the scale domain, here provite **start Date-time** and **End Date-time**
+ 
+ ![image](https://user-images.githubusercontent.com/25982054/124363603-d180a080-dc59-11eb-9c7e-2bdb202d2b29.png)
+ 
+ 2. Add scale position axisBottom , axisLeft, axisRight , axisTop and format the label using **tickFormat**
+ 
+ ![image](https://user-images.githubusercontent.com/25982054/124363617-f6751380-dc59-11eb-88f7-fa6ea246cc8a.png)
 
  
+ ## Output
+ ![image](https://user-images.githubusercontent.com/25982054/124363687-67b4c680-dc5a-11eb-977e-d405503ca3d1.png)
