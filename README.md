@@ -11,6 +11,12 @@ this application include
 2. npm install
 3. ng serve
 
+# Create svg
+first create svg and then add scale 
+![image](https://user-images.githubusercontent.com/25982054/124364337-7d2bef80-dc5e-11eb-903f-d75f90a15bcf.png)
+
+![image](https://user-images.githubusercontent.com/25982054/124364290-23c3c080-dc5e-11eb-99c0-2a97b0272bc7.png)
+
 # Scale Linear
  1. To craete linear scale you need **d3.scaleLinear()** 
  set the scale domain, here domain start with **0** to **100** but if you want negative scale then start domain with **negative value** to **positive value**
@@ -43,3 +49,35 @@ this application include
  
  ## Output
  ![image](https://user-images.githubusercontent.com/25982054/124363687-67b4c680-dc5a-11eb-977e-d405503ca3d1.png)
+
+# Scale Log
+ 1. To craete linear scale you need **d3.scaleLog()** 
+ set the scale domain, here domain start with **0.1** to **1000**.
+ 0 and negative value not assign to domain because log(0) or log(-negativeValue) return **NAN**
+ 
+ ![image](https://user-images.githubusercontent.com/25982054/124363956-042b9880-dc5c-11eb-9a76-602af39b85ac.png)
+ 
+ 2. To format scale user **d3.format('.0f')**
+ 
+ ![image](https://user-images.githubusercontent.com/25982054/124364028-6edcd400-dc5c-11eb-8b03-ee59312da287.png)
+
+ ## Output
+ 1. scale without format
+ 
+ ![image](https://user-images.githubusercontent.com/25982054/124364084-d2ff9800-dc5c-11eb-9648-e6844cffcca4.png)
+
+ 2. scale with format
+ 
+    ![image](https://user-images.githubusercontent.com/25982054/124364055-af3c5200-dc5c-11eb-83d3-2c28a76c1501.png)
+    
+# Scale Band
+ 1. To craete linear scale you need **d3.scaleBand()** 
+ 
+ ![image](https://user-images.githubusercontent.com/25982054/124364256-e65f3300-dc5d-11eb-948e-01c562f96291.png)
+
+ ## Output
+ 
+![image](https://user-images.githubusercontent.com/25982054/124364226-a4ce8800-dc5d-11eb-925c-8c333a300a3e.png)
+
+
+   
